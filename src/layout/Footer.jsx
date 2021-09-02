@@ -1,14 +1,21 @@
 const Footer = () => {
-  return ( 
-    <footer className="page-footer green lighten-4">
-      <div className="footer-copyright">
-        <div className="container">
-        © {new Date().getFullYear()} Copyright Text
-        <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+  return (
+    <footer className='page-footer green lighten-4'>
+      <div className='footer-copyright'>
+        <div className='container'>
+          © {new Date().getFullYear()} Copyright Text
+          <a
+            className='grey-text text-lighten-4 right'
+            href='https://github.com/EvgeniiKolesnikov/react-movies'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Repo
+          </a>
         </div>
       </div>
-    </footer> 
+    </footer>
   );
-}
+};
 
 export default Footer;
